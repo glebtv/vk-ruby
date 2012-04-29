@@ -75,7 +75,7 @@ module VK::Core
   end
 
   def parse string
-    MultiJson.decode string
+    MultiJson.load string
   end
   
 end
