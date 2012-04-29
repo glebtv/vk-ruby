@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = ["LICENSE.txt", "README.md" ]
       
   gem.add_runtime_dependency 'transformer', '~> 0.2.2'
-  gem.add_runtime_dependency 'multi_json', '~> 1.2.0'
+  gem.add_runtime_dependency 'multi_json', '~> 1.3.0'
 
   gem.add_development_dependency 'rake', '~> 0.9'
   gem.add_development_dependency 'minitest', '~> 2.8'
