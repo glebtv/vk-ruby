@@ -55,6 +55,7 @@ module VK::Core
     end
 
     response = connection(params).request(http_verbs, path, {}, body, attempts)
+    
     raise VK::BadResponseException.new(response, verbs, path, options) if response.code.to_i >= 500
 
     parse response.body
